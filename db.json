@@ -32,6 +32,13 @@
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Loan"
+        },
+        {
+          "account_number": 45678901234,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT223344556677889900",
+          "product_name": "Current Account"
         }
       ]
     },
@@ -67,6 +74,13 @@
           "currency": "EUR",
           "iban": "AT445566778899001122",
           "product_name": "Business Loan"
+        },
+        {
+          "account_number": 90123456789,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT556677889900112233",
+          "product_name": "Current Account"
         }
       ]
     },
@@ -102,6 +116,13 @@
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Loan"
+        },
+        {
+          "account_number": 12345678901,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT990011223344556677",
+          "product_name": "Current Account"
         }
       ]
     },
@@ -137,6 +158,13 @@
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Business Loan"
+        },
+        {
+          "account_number": 23456789012,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT112233445566778899",
+          "product_name": "Current Account"
         }
       ]
     },
@@ -172,6 +200,13 @@
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Loan"
+        },
+        {
+          "account_number": 45678901234,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT223344556677889900",
+          "product_name": "Current Account"
         }
       ]
     },
@@ -207,6 +242,13 @@
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Business Loan"
+        },
+        {
+          "account_number": 89012345678,
+          "product_type": "C1",
+          "currency": "EUR",
+          "iban": "AT112233445566778899",
+          "product_name": "Current Account"
         }
       ]
     }
