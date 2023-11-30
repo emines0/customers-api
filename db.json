@@ -1,102 +1,6 @@
 {
   "customers": [
     {
-      "id": 12345678,
-      "first_name": "Anna",
-      "last_name": "Schmidt",
-      "full_name": "Anna Schmidt",
-      "customer_type": "Retail",
-      "salutation": "Ms.",
-      "family_name": "Schmidt",
-      "address": "123 Main Street, Vienna",
-      "segment": "Individual",
-      "branch_address": "456 Branch Street, Vienna",
-      "bank_products": [
-        {
-          "account_number": 98765432101,
-          "product_type": "SA",
-          "currency": "EUR",
-          "iban": "AT611234567890123456"
-        },
-        {
-          "account_number": 65432109876,
-          "product_type": "CC",
-          "currency": "EUR",
-          "iban": "AT987654321012345678"
-        },
-        {
-          "account_number": 11223344556,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT345678901234567890"
-        }
-      ]
-    },
-    {
-      "id": 23456789,
-      "first_name": "Michael",
-      "last_name": "Wagner",
-      "full_name": "Michael Wagner",
-      "customer_type": "Corporate",
-      "salutation": "Mr.",
-      "family_name": "Wagner",
-      "address": "456 Business Avenue, Graz",
-      "segment": "Business",
-      "branch_address": "789 Corporate Lane, Graz",
-      "bank_products": [
-        {
-          "account_number": 34567890123,
-          "product_type": "CA",
-          "currency": "EUR",
-          "iban": "AT112233445566778899"
-        },
-        {
-          "account_number": 87654321098,
-          "product_type": "TD",
-          "currency": "EUR",
-          "iban": "AT998877665544332211"
-        },
-        {
-          "account_number": 55443322111,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT667788990011223344"
-        }
-      ]
-    },
-    {
-      "id": 34567890,
-      "first_name": "Sophie",
-      "last_name": "Müller",
-      "full_name": "Sophie Müller",
-      "customer_type": "Retail",
-      "salutation": "Ms.",
-      "family_name": "Müller",
-      "address": "789 Park Street, Salzburg",
-      "segment": "Individual",
-      "branch_address": "012 Retail Square, Salzburg",
-      "bank_products": [
-        {
-          "account_number": 90123456789,
-          "product_type": "SA",
-          "currency": "EUR",
-          "iban": "AT445566778899001122"
-        },
-        {
-          "account_number": 89012345678,
-          "product_type": "CC",
-          "currency": "EUR",
-          "iban": "AT334455667788990011"
-        },
-        {
-          "account_number": 67890123456,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT223344556677889900"
-        }
-      ]
-    },
-    {
       "id": 45678901,
       "first_name": "Thomas",
       "last_name": "Huber",
@@ -112,19 +16,22 @@
           "account_number": 12345678901,
           "product_type": "SA",
           "currency": "EUR",
-          "iban": "AT556677889900112233"
+          "iban": "AT556677889900112233",
+          "product_name": "Savings Account"
         },
         {
           "account_number": 23456789012,
           "product_type": "CC",
           "currency": "EUR",
-          "iban": "AT990011223344556677"
+          "iban": "AT990011223344556677",
+          "product_name": "Credit Card"
         },
         {
           "account_number": 34567890123,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT112233445566778899"
+          "iban": "AT112233445566778899",
+          "product_name": "Loan"
         }
       ]
     },
@@ -144,19 +51,22 @@
           "account_number": 67890123456,
           "product_type": "CA",
           "currency": "EUR",
-          "iban": "AT223344556677889900"
+          "iban": "AT223344556677889900",
+          "product_name": "Corporate Account"
         },
         {
           "account_number": 78901234567,
           "product_type": "TD",
           "currency": "EUR",
-          "iban": "AT334455667788990011"
+          "iban": "AT334455667788990011",
+          "product_name": "Term Deposit"
         },
         {
           "account_number": 89012345678,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT445566778899001122"
+          "iban": "AT445566778899001122",
+          "product_name": "Business Loan"
         }
       ]
     },
@@ -176,19 +86,22 @@
           "account_number": 78901234567,
           "product_type": "SA",
           "currency": "EUR",
-          "iban": "AT334455667788990011"
+          "iban": "AT334455667788990011",
+          "product_name": "Savings Account"
         },
         {
           "account_number": 89012345678,
           "product_type": "CC",
           "currency": "EUR",
-          "iban": "AT445566778899001122"
+          "iban": "AT445566778899001122",
+          "product_name": "Credit Card"
         },
         {
           "account_number": 90123456789,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT556677889900112233"
+          "iban": "AT556677889900112233",
+          "product_name": "Loan"
         }
       ]
     },
@@ -208,19 +121,22 @@
           "account_number": 89012345678,
           "product_type": "CA",
           "currency": "EUR",
-          "iban": "AT445566778899001122"
+          "iban": "AT445566778899001122",
+          "product_name": "Corporate Account"
         },
         {
           "account_number": 90123456789,
           "product_type": "TD",
           "currency": "EUR",
-          "iban": "AT556677889900112233"
+          "iban": "AT556677889900112233",
+          "product_name": "Term Deposit"
         },
         {
           "account_number": 12345678901,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT990011223344556677"
+          "iban": "AT990011223344556677",
+          "product_name": "Business Loan"
         }
       ]
     },
@@ -240,19 +156,22 @@
           "account_number": 90123456789,
           "product_type": "SA",
           "currency": "EUR",
-          "iban": "AT445566778899001122"
+          "iban": "AT445566778899001122",
+          "product_name": "Savings Account"
         },
         {
           "account_number": 23456789012,
           "product_type": "CC",
           "currency": "EUR",
-          "iban": "AT990011223344556677"
+          "iban": "AT990011223344556677",
+          "product_name": "Credit Card"
         },
         {
           "account_number": 34567890123,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT112233445566778899"
+          "iban": "AT112233445566778899",
+          "product_name": "Loan"
         }
       ]
     },
@@ -272,19 +191,22 @@
           "account_number": 56789012345,
           "product_type": "CA",
           "currency": "EUR",
-          "iban": "AT445566778899001122"
+          "iban": "AT445566778899001122",
+          "product_name": "Corporate Account"
         },
         {
           "account_number": 67890123456,
           "product_type": "TD",
           "currency": "EUR",
-          "iban": "AT556677889900112233"
+          "iban": "AT556677889900112233",
+          "product_name": "Term Deposit"
         },
         {
           "account_number": 78901234567,
           "product_type": "LN",
           "currency": "EUR",
-          "iban": "AT990011223344556677"
+          "iban": "AT990011223344556677",
+          "product_name": "Business Loan"
         }
       ]
     }
