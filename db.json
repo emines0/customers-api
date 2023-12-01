@@ -8,95 +8,113 @@
       "customer_type": "Retail",
       "salutation": "Mr.",
       "family_name": "Huber",
-      "address": "345 Lakeview Drive, Innsbruck",
-      "segment": "Individual",
-      "branch_address": "678 Retail Lane, Innsbruck",
+      "address": "345 Seeblickstraße, Innsbruck",
+      "segment": "Einzelhandel",
+      "branch_address": "678 Einzelhandelsstraße, Innsbruck",
+      "date_of_birth": "1980-05-15",
+      "phone": "+43 123 456 789",
+      "identification_type": "Reisepass",
+      "identification_type_number": "P1234567",
+      "validity_period": "2023-05-15",
+      "profession": "Buchhalter",
+      "customer_short_name": "Verkaufsleiter",
       "bank_products": [
         {
           "account_number": 12345678901,
           "product_type": "SA",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Savings Account"
+          "product_name": "Sparkonto"
         },
         {
           "account_number": 23456789012,
           "product_type": "CC",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Credit Card"
+          "product_name": "Kreditkarte"
         },
         {
           "account_number": 34567890123,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Loan"
+          "product_name": "Kredit"
         },
         {
           "account_number": 45678901234,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Current Account"
+          "product_name": "Girokonto"
         },
         {
           "account_number": 56789012345,
           "product_type": "M1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Mortgage"
+          "product_name": "Hypothek"
         }
-      ]
+      ],
+      "data": "unvollständige",
+      "customer_group": "Gruppe A"
     },
     {
       "id": 56789012,
       "first_name": "Laura",
       "last_name": "Graf",
-      "full_name": "Laura Graf",
+      "full_name": "Graf AG",
       "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Graf",
-      "address": "789 Business Boulevard, Linz",
-      "segment": "Business",
-      "branch_address": "012 Corporate Square, Linz",
+      "salutation": "Frau",
+      "family_name": "Graf AG",
+      "address": "789 Geschäftsstraße, Linz",
+      "segment": "Geschäftskunden",
+      "branch_address": "012 Unternehmensplatz, Linz",
+      "date_of_birth": "1975-08-22",
+      "phone": "+43 234 567 890",
+      "identification_type": "Ausweis",
+      "identification_type_number": "ID9876543",
+      "validity_period": "2024-08-22",
+      "profession": "Manager",
+      "customer_short_name": "Vertriebsmitarbeiterin",
       "bank_products": [
         {
           "account_number": 67890123456,
           "product_type": "CA",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Corporate Account"
+          "product_name": "Unternehmenskonto"
         },
         {
           "account_number": 78901234567,
           "product_type": "TD",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Term Deposit"
+          "product_name": "Termineinlage"
         },
         {
           "account_number": 89012345678,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Business Loan"
+          "product_name": "Unternehmenskredit"
         },
         {
           "account_number": 90123456789,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Current Account"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 12345678901,
           "product_type": "CC",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Credit Card"
+          "product_name": "Kreditkarte"
         }
-      ]
+      ],
+      "data": "vollständige",
+      "customer_group": "Gruppe B"
     },
     {
       "id": 67890123,
@@ -104,97 +122,115 @@
       "last_name": "Schwarz",
       "full_name": "Markus Schwarz",
       "customer_type": "Retail",
-      "salutation": "Mr.",
+      "salutation": "Herr",
       "family_name": "Schwarz",
-      "address": "123 Alpine Street, Graz",
-      "segment": "Individual",
-      "branch_address": "456 Retail Lane, Graz",
+      "address": "123 Alpenstraße, Graz",
+      "segment": "Einzelhandel",
+      "branch_address": "456 Einzelhandelsstraße, Graz",
+      "date_of_birth": "1992-02-10",
+      "phone": "+43 345 678 901",
+      "identification_type": "Führerschein",
+      "identification_type_number": "FS0123456",
+      "validity_period": "2025-02-10",
+      "profession": "Verkäufer",
+      "customer_short_name": "IT-Spezialist",
       "bank_products": [
         {
           "account_number": 78901234567,
           "product_type": "SA",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Savings Account"
+          "product_name": "Sparkonto"
         },
         {
           "account_number": 89012345678,
           "product_type": "CC",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Credit Card"
+          "product_name": "Kreditkarte"
         },
         {
           "account_number": 90123456789,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Loan"
+          "product_name": "Kredit"
         },
         {
           "account_number": 12345678901,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Current Account"
+          "product_name": "Girokonto"
         },
         {
           "account_number": 23456789012,
           "product_type": "M1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Mortgage"
+          "product_name": "Hypothek"
         }
-      ]
+      ],
+      "data": "unvollständige",
+      "customer_group": "Gruppe A"
     },
     {
       "id": 78901234,
       "first_name": "Eva",
       "last_name": "Bauer",
-      "full_name": "Eva Bauer",
+      "full_name": "Bauer GmbH",
       "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Bauer",
-      "address": "789 Corporate Avenue, Vienna",
-      "segment": "Business",
-      "branch_address": "012 Business Lane, Vienna",
+      "salutation": "Frau",
+      "family_name": "Bauer GmbH",
+      "address": "789 Geschäftsavenue, Wien",
+      "segment": "Geschäftskunden",
+      "branch_address": "012 Geschäftsstraße, Wien",
+      "date_of_birth": "1988-11-30",
+      "phone": "+43 456 789 012",
+      "identification_type": "Reisepass",
+      "identification_type_number": "P7654321",
+      "validity_period": "2023-11-30",
+      "profession": "Designer",
+      "customer_short_name": "Technologieexperte",
       "bank_products": [
         {
           "account_number": 89012345678,
           "product_type": "CA",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Corporate Account"
+          "product_name": "Unternehmenskonto"
         },
         {
           "account_number": 90123456789,
           "product_type": "TD",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Term Deposit"
+          "product_name": "Termineinlage"
         },
         {
           "account_number": 12345678901,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Business Loan"
+          "product_name": "Unternehmenskredit"
         },
         {
           "account_number": 23456789012,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Current Account"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 34567890123,
           "product_type": "M1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Mortgage"
+          "product_name": "Hypothek"
         }
-      ]
+      ],
+      "data": "vollständige",
+      "customer_group": "Gruppe B"
     },
     {
       "id": 89012345,
@@ -202,97 +238,115 @@
       "last_name": "Fischer",
       "full_name": "Hans Fischer",
       "customer_type": "Retail",
-      "salutation": "Mr.",
+      "salutation": "Herr",
       "family_name": "Fischer",
-      "address": "345 Lakefront Drive, Salzburg",
-      "segment": "Individual",
-      "branch_address": "678 Retail Square, Salzburg",
+      "address": "345 Uferstraße, Salzburg",
+      "segment": "Einzelhandel",
+      "branch_address": "678 Einzelhandelsplatz, Salzburg",
+      "date_of_birth": "1973-07-18",
+      "phone": "+43 567 890 123",
+      "identification_type": "Ausweis",
+      "identification_type_number": "ID5432109",
+      "validity_period": "2024-07-18",
+      "profession": "Koch",
+      "customer_short_name": "Produktionsleiter",
       "bank_products": [
         {
           "account_number": 90123456789,
           "product_type": "SA",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Savings Account"
+          "product_name": "Sparkonto"
         },
         {
           "account_number": 23456789012,
           "product_type": "CC",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Credit Card"
+          "product_name": "Kreditkarte"
         },
         {
           "account_number": 34567890123,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Loan"
+          "product_name": "Kredit"
         },
         {
           "account_number": 45678901234,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Current Account"
+          "product_name": "Girokonto"
         },
         {
           "account_number": 56789012345,
           "product_type": "M1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Mortgage"
+          "product_name": "Hypothek"
         }
-      ]
+      ],
+      "data": "unvollständige",
+      "customer_group": "Gruppe A"
     },
     {
       "id": 98765432,
       "first_name": "Sandra",
       "last_name": "Weber",
-      "full_name": "Sandra Weber",
+      "full_name": "Weber AG",
       "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Weber",
-      "address": "123 Corporate Street, Linz",
-      "segment": "Business",
-      "branch_address": "456 Corporate Lane, Linz",
+      "salutation": "Frau",
+      "family_name": "Weber AG",
+      "address": "123 Geschäftsstraße, Linz",
+      "segment": "Geschäftskunden",
+      "branch_address": "456 Geschäftslane, Linz",
+      "date_of_birth": "1985-04-05",
+      "phone": "+43 678 901 234",
+      "identification_type": "Führerschein",
+      "identification_type_number": "FS9876543",
+      "validity_period": "2025-04-05",
+      "profession": "Ingenieur",
+      "customer_short_name": "Kommunikationsberater",
       "bank_products": [
         {
           "account_number": 56789012345,
           "product_type": "CA",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Corporate Account"
+          "product_name": "Unternehmenskonto"
         },
         {
           "account_number": 67890123456,
           "product_type": "TD",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Term Deposit"
+          "product_name": "Termineinlage"
         },
         {
           "account_number": 78901234567,
           "product_type": "LN",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Business Loan"
+          "product_name": "Unternehmenskredit"
         },
         {
           "account_number": 89012345678,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Current Account"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 90123456789,
           "product_type": "M1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Mortgage"
+          "product_name": "Hypothek"
         }
-      ]
+      ],
+      "data": "vollständige",
+      "customer_group": "Gruppe B"
     }
   ]
 }
