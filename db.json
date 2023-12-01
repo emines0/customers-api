@@ -39,6 +39,13 @@
           "currency": "EUR",
           "iban": "AT223344556677889900",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 56789012345,
+          "product_type": "M1",
+          "currency": "EUR",
+          "iban": "AT334455667788990011",
+          "product_name": "Mortgage"
         }
       ]
     },
@@ -81,6 +88,13 @@
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 12345678901,
+          "product_type": "CC",
+          "currency": "EUR",
+          "iban": "AT112233445566778899",
+          "product_name": "Credit Card"
         }
       ]
     },
@@ -123,6 +137,13 @@
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 23456789012,
+          "product_type": "M1",
+          "currency": "EUR",
+          "iban": "AT112233445566778899",
+          "product_name": "Mortgage"
         }
       ]
     },
@@ -165,6 +186,13 @@
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 34567890123,
+          "product_type": "M1",
+          "currency": "EUR",
+          "iban": "AT223344556677889900",
+          "product_name": "Mortgage"
         }
       ]
     },
@@ -207,6 +235,13 @@
           "currency": "EUR",
           "iban": "AT223344556677889900",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 56789012345,
+          "product_type": "M1",
+          "currency": "EUR",
+          "iban": "AT334455667788990011",
+          "product_name": "Mortgage"
         }
       ]
     },
@@ -249,6 +284,13 @@
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Current Account"
+        },
+        {
+          "account_number": 90123456789,
+          "product_type": "M1",
+          "currency": "EUR",
+          "iban": "AT334455667788990011",
+          "product_name": "Mortgage"
         }
       ]
     }
