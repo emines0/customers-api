@@ -1,256 +1,1864 @@
 {
   "customers": [
     {
-      "id": 45678901,
+      "id": "12345678",
+      "address": "Musterstraße 123, 1010 Wien",
+      "profession": "Arzt",
+      "salutation": "Herr",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 5489,
+        "branch_name": "Hauptfiliale"
+      },
+      "customer_short_name": "Dr. Muster",
+      "segment": "Privatkunden",
+      "full_name": "Dr. Max Muster",
+      "first_name": "Max",
+      "last_name": "Muster",
+      "family_name": "Muster",
+      "customer_group": "Gold",
+      "data": "vollständige",
+      "date_of_birth": "15.07.1980",
+      "phone": "+43 660 1234567",
+      "identification_type": "Reisepass",
+      "identification_type_number": "AB123456",
+      "validity_period": "30.06.2030",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "1",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "2",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "3",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "87654321",
+      "address": "Beispielweg 456, 1030 Wien",
+      "profession": "Unternehmer",
+      "salutation": "Frau",
+      "customer_type": "Corporate",
+      "main_branch": {
+        "branch_number": 7890,
+        "branch_name": "Filiale Mitte"
+      },
+      "customer_short_name": "Unternehmen XYZ",
+      "segment": "Geschäftskunden",
+      "full_name": "",
+      "first_name": "",
+      "last_name": "",
+      "family_name": "",
+      "customer_group": "Silber",
+      "data": "unvollständige",
+      "date_of_birth": "",
+      "phone": "+43 660 9876543",
+      "identification_type": "Firmenbuch",
+      "identification_type_number": "FN87654321",
+      "validity_period": "31.12.2025",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "4",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "5",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "6",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23456789",
+      "address": "Testweg 789, 1070 Wien",
+      "profession": "Lehrer",
+      "salutation": "Frau",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 2468,
+        "branch_name": "Filiale West"
+      },
+      "customer_short_name": "Frau Müller",
+      "segment": "Privatkunden",
+      "full_name": "Maria Müller",
+      "first_name": "Maria",
+      "last_name": "Müller",
+      "family_name": "Müller",
+      "customer_group": "Silber",
+      "data": "vollständige",
+      "date_of_birth": "22.05.1992",
+      "phone": "+43 660 9876543",
+      "identification_type": "Personalausweis",
+      "identification_type_number": "12345678",
+      "validity_period": "31.12.2027",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "7",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "8",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "9",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "34567890",
+      "address": "Musterweg 345, 1150 Wien",
+      "profession": "Ingenieur",
+      "salutation": "Herr",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 1357,
+        "branch_name": "Filiale Süd"
+      },
+      "customer_short_name": "Herr Schneider",
+      "segment": "Privatkunden",
+      "full_name": "Thomas Schneider",
       "first_name": "Thomas",
-      "last_name": "Huber",
-      "full_name": "Thomas Huber",
+      "last_name": "Schneider",
+      "family_name": "Schneider",
+      "customer_group": "Bronze",
+      "data": "vollständige",
+      "date_of_birth": "10.11.1985",
+      "phone": "+43 660 8765432",
+      "identification_type": "Führerschein",
+      "identification_type_number": "XYZ789012",
+      "validity_period": "28.02.2025",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "10",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "11",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "12",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "45678901",
+      "address": "Beispielplatz 678, 1230 Wien",
+      "profession": "Architekt",
+      "salutation": "Herr",
       "customer_type": "Retail",
-      "salutation": "Mr.",
-      "family_name": "Huber",
-      "address": "345 Lakeview Drive, Innsbruck",
-      "segment": "Individual",
-      "branch_address": "678 Retail Lane, Innsbruck",
-      "bank_products": [
-        {
-          "account_number": 12345678901,
-          "product_type": "SA",
-          "currency": "EUR",
-          "iban": "AT556677889900112233",
-          "product_name": "Savings Account"
-        },
-        {
-          "account_number": 23456789012,
-          "product_type": "CC",
-          "currency": "EUR",
-          "iban": "AT990011223344556677",
-          "product_name": "Credit Card"
-        },
-        {
-          "account_number": 34567890123,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT112233445566778899",
-          "product_name": "Loan"
-        },
-        {
-          "account_number": 45678901234,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT223344556677889900",
-          "product_name": "Current Account"
-        }
-      ]
+      "main_branch": {
+        "branch_number": 3579,
+        "branch_name": "Filiale Nord"
+      },
+      "customer_short_name": "Herr Berger",
+      "segment": "Privatkunden",
+      "full_name": "Michael Berger",
+      "first_name": "Michael",
+      "last_name": "Berger",
+      "family_name": "Berger",
+      "customer_group": "Gold",
+      "data": "vollständige",
+      "date_of_birth": "05.09.1978",
+      "phone": "+43 660 1234567",
+      "identification_type": "Reisepass",
+      "identification_type_number": "CD987654",
+      "validity_period": "15.04.2030",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "13",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "14",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "15",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
     },
     {
-      "id": 56789012,
-      "first_name": "Laura",
-      "last_name": "Graf",
-      "full_name": "Laura Graf",
-      "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Graf",
-      "address": "789 Business Boulevard, Linz",
-      "segment": "Business",
-      "branch_address": "012 Corporate Square, Linz",
-      "bank_products": [
-        {
-          "account_number": 67890123456,
-          "product_type": "CA",
-          "currency": "EUR",
-          "iban": "AT223344556677889900",
-          "product_name": "Corporate Account"
-        },
-        {
-          "account_number": 78901234567,
-          "product_type": "TD",
-          "currency": "EUR",
-          "iban": "AT334455667788990011",
-          "product_name": "Term Deposit"
-        },
-        {
-          "account_number": 89012345678,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT445566778899001122",
-          "product_name": "Business Loan"
-        },
-        {
-          "account_number": 90123456789,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT556677889900112233",
-          "product_name": "Current Account"
-        }
-      ]
-    },
-    {
-      "id": 67890123,
-      "first_name": "Markus",
-      "last_name": "Schwarz",
-      "full_name": "Markus Schwarz",
+      "id": "34567890",
+      "address": "Musterplatz 567, 1050 Wien",
+      "profession": "Architekt",
+      "salutation": "Herr",
       "customer_type": "Retail",
-      "salutation": "Mr.",
-      "family_name": "Schwarz",
-      "address": "123 Alpine Street, Graz",
-      "segment": "Individual",
-      "branch_address": "456 Retail Lane, Graz",
-      "bank_products": [
-        {
-          "account_number": 78901234567,
-          "product_type": "SA",
-          "currency": "EUR",
-          "iban": "AT334455667788990011",
-          "product_name": "Savings Account"
-        },
-        {
-          "account_number": 89012345678,
-          "product_type": "CC",
-          "currency": "EUR",
-          "iban": "AT445566778899001122",
-          "product_name": "Credit Card"
-        },
-        {
-          "account_number": 90123456789,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT556677889900112233",
-          "product_name": "Loan"
-        },
-        {
-          "account_number": 12345678901,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT990011223344556677",
-          "product_name": "Current Account"
-        }
-      ]
+      "main_branch": {
+        "branch_number": 1357,
+        "branch_name": "Filiale Süd"
+      },
+      "customer_short_name": "Herr Schmidt",
+      "segment": "Privatkunden",
+      "full_name": "Thomas Schmidt",
+      "first_name": "Thomas",
+      "last_name": "Schmidt",
+      "family_name": "Schmidt",
+      "customer_group": "Bronze",
+      "data": "vollständige",
+      "date_of_birth": "10.11.1985",
+      "phone": "+43 660 5554444",
+      "identification_type": "Führerschein",
+      "identification_type_number": "DE987654",
+      "validity_period": "30.09.2032",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "10",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "11",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "12",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
     },
     {
-      "id": 78901234,
-      "first_name": "Eva",
-      "last_name": "Bauer",
-      "full_name": "Eva Bauer",
-      "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Bauer",
-      "address": "789 Corporate Avenue, Vienna",
-      "segment": "Business",
-      "branch_address": "012 Business Lane, Vienna",
-      "bank_products": [
-        {
-          "account_number": 89012345678,
-          "product_type": "CA",
-          "currency": "EUR",
-          "iban": "AT445566778899001122",
-          "product_name": "Corporate Account"
-        },
-        {
-          "account_number": 90123456789,
-          "product_type": "TD",
-          "currency": "EUR",
-          "iban": "AT556677889900112233",
-          "product_name": "Term Deposit"
-        },
-        {
-          "account_number": 12345678901,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT990011223344556677",
-          "product_name": "Business Loan"
-        },
-        {
-          "account_number": 23456789012,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT112233445566778899",
-          "product_name": "Current Account"
-        }
-      ]
-    },
-    {
-      "id": 89012345,
-      "first_name": "Hans",
-      "last_name": "Fischer",
-      "full_name": "Hans Fischer",
+      "id": "45678901",
+      "address": "Beispielgasse 987, 1100 Wien",
+      "profession": "Ingenieur",
+      "salutation": "Herr",
       "customer_type": "Retail",
-      "salutation": "Mr.",
-      "family_name": "Fischer",
-      "address": "345 Lakefront Drive, Salzburg",
-      "segment": "Individual",
-      "branch_address": "678 Retail Square, Salzburg",
-      "bank_products": [
-        {
-          "account_number": 90123456789,
-          "product_type": "SA",
-          "currency": "EUR",
-          "iban": "AT445566778899001122",
-          "product_name": "Savings Account"
-        },
-        {
-          "account_number": 23456789012,
-          "product_type": "CC",
-          "currency": "EUR",
-          "iban": "AT990011223344556677",
-          "product_name": "Credit Card"
-        },
-        {
-          "account_number": 34567890123,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT112233445566778899",
-          "product_name": "Loan"
-        },
-        {
-          "account_number": 45678901234,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT223344556677889900",
-          "product_name": "Current Account"
-        }
-      ]
+      "main_branch": {
+        "branch_number": 3579,
+        "branch_name": "Filiale Nord"
+      },
+      "customer_short_name": "Herr Wagner",
+      "segment": "Privatkunden",
+      "full_name": "Michael Wagner",
+      "first_name": "Michael",
+      "last_name": "Wagner",
+      "family_name": "Wagner",
+      "customer_group": "Gold",
+      "data": "vollständige",
+      "date_of_birth": "05.03.1978",
+      "phone": "+43 660 1112233",
+      "identification_type": "Reisepass",
+      "identification_type_number": "CD987654",
+      "validity_period": "28.02.2030",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "13",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "14",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "15",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
     },
     {
-      "id": 98765432,
-      "first_name": "Sandra",
-      "last_name": "Weber",
-      "full_name": "Sandra Weber",
-      "customer_type": "Corporate",
-      "salutation": "Ms.",
-      "family_name": "Weber",
-      "address": "123 Corporate Street, Linz",
-      "segment": "Business",
-      "branch_address": "456 Corporate Lane, Linz",
-      "bank_products": [
-        {
-          "account_number": 56789012345,
-          "product_type": "CA",
-          "currency": "EUR",
-          "iban": "AT445566778899001122",
-          "product_name": "Corporate Account"
-        },
-        {
-          "account_number": 67890123456,
-          "product_type": "TD",
-          "currency": "EUR",
-          "iban": "AT556677889900112233",
-          "product_name": "Term Deposit"
-        },
-        {
-          "account_number": 78901234567,
-          "product_type": "LN",
-          "currency": "EUR",
-          "iban": "AT990011223344556677",
-          "product_name": "Business Loan"
-        },
-        {
-          "account_number": 89012345678,
-          "product_type": "C1",
-          "currency": "EUR",
-          "iban": "AT112233445566778899",
-          "product_name": "Current Account"
-        }
-      ]
+      "id": "23456789",
+      "address": "Testweg 789, 1070 Wien",
+      "profession": "Lehrer",
+      "salutation": "Frau",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 2468,
+        "branch_name": "Filiale West"
+      },
+      "customer_short_name": "Frau Müller",
+      "segment": "Privatkunden",
+      "full_name": "Maria Müller",
+      "first_name": "Maria",
+      "last_name": "Müller",
+      "family_name": "Müller",
+      "customer_group": "Silber",
+      "data": "vollständige",
+      "date_of_birth": "22.05.1992",
+      "phone": "+43 660 9876543",
+      "identification_type": "Personalausweis",
+      "identification_type_number": "12345678",
+      "validity_period": "31.12.2027",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "7",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "8",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "9",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "34567890",
+      "address": "Musterplatz 789, 1130 Wien",
+      "profession": "Ingenieur",
+      "salutation": "Herr",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 1357,
+        "branch_name": "Filiale Süd"
+      },
+      "customer_short_name": "Herr Schneider",
+      "segment": "Privatkunden",
+      "full_name": "Thomas Schneider",
+      "first_name": "Thomas",
+      "last_name": "Schneider",
+      "family_name": "Schneider",
+      "customer_group": "Bronze",
+      "data": "vollständige",
+      "date_of_birth": "10.11.1985",
+      "phone": "+43 660 5555555",
+      "identification_type": "Führerschein",
+      "identification_type_number": "AB987654",
+      "validity_period": "30.06.2030",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "10",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "11",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "12",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "45678901",
+      "address": "Beispielstraße 456, 1160 Wien",
+      "profession": "Architekt",
+      "salutation": "Frau",
+      "customer_type": "Retail",
+      "main_branch": {
+        "branch_number": 2468,
+        "branch_name": "Filiale Nord"
+      },
+      "customer_short_name": "Frau Wagner",
+      "segment": "Privatkunden",
+      "full_name": "Sophie Wagner",
+      "first_name": "Sophie",
+      "last_name": "Wagner",
+      "family_name": "Wagner",
+      "customer_group": "Silber",
+      "data": "vollständige",
+      "date_of_birth": "05.03.1978",
+      "phone": "+43 660 3333333",
+      "identification_type": "Reisepass",
+      "identification_type_number": "CD987654",
+      "validity_period": "30.06.2025",
+      "products": {
+        "accounts": [
+          {
+            "account_number": "98765432101",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT611234567890123456"
+          },
+          {
+            "account_number": "65432109802",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT621234567890234567"
+          },
+          {
+            "account_number": "12345678903",
+            "type": "C1",
+            "currency": "EUR",
+            "iban": "AT631234567890345678"
+          }
+        ],
+        "securities": [
+          {
+            "account_number": "23456789014",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT641234567890456789"
+          },
+          {
+            "account_number": "34567890125",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT651234567890567890"
+          },
+          {
+            "account_number": "45678901236",
+            "type": "TT",
+            "currency": "EUR",
+            "iban": "AT661234567890678901"
+          }
+        ],
+        "savings": [
+          {
+            "account_number": "56789012347",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT671234567890789012"
+          },
+          {
+            "account_number": "67890123458",
+            "type": "D2",
+            "currency": "EUR",
+            "iban": "AT681234567890890123"
+          },
+          {
+            "account_number": "78901234569",
+            "type": "D1",
+            "currency": "EUR",
+            "iban": "AT691234567890901234"
+          }
+        ],
+        "credits": [
+          {
+            "account_number": "89012345670",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT701234567890012345"
+          },
+          {
+            "account_number": "90123456781",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT711234567890123456"
+          },
+          {
+            "account_number": "01234567892",
+            "type": "F1",
+            "currency": "EUR",
+            "iban": "AT721234567890234567"
+          }
+        ],
+        "credit_lines": [
+          {
+            "account_number": "13",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "14",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          },
+          {
+            "account_number": "15",
+            "type": "CL",
+            "currency": "",
+            "iban": ""
+          }
+        ],
+        "collaterals": [
+          {
+            "account_number": "23456789023",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT731234567890345678"
+          },
+          {
+            "account_number": "34567890134",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT741234567890456789"
+          },
+          {
+            "account_number": "45678901245",
+            "type": "CR",
+            "currency": "EUR",
+            "iban": "AT751234567890567890"
+          }
+        ],
+        "insurance": [
+          {
+            "account_number": "56789012356",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT761234567890678901"
+          },
+          {
+            "account_number": "67890123467",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT771234567890789012"
+          },
+          {
+            "account_number": "78901234578",
+            "type": "IN",
+            "currency": "EUR",
+            "iban": "AT781234567890890123"
+          }
+        ],
+        "electronic_banking": [
+          {
+            "account_number": "89012345689",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT791234567890901234"
+          },
+          {
+            "account_number": "90123456790",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT801234567890012345"
+          },
+          {
+            "account_number": "01234567890",
+            "type": "EB",
+            "currency": "EUR",
+            "iban": "AT811234567890123456"
+          }
+        ]
+      }
     }
   ]
 }
