@@ -20,35 +20,35 @@
       "customer_short_name": "Verkaufsleiter",
       "bank_products": [
         {
-          "account_number": 12345678901,
+          "account_number": "12345678901",
           "product_type": "EB",
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Electronic Banking"
         },
         {
-          "account_number": 23456789012,
+          "account_number": "23456789012",
           "product_type": "TT",
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Veranlagungen"
         },
         {
-          "account_number": 34567890123,
+          "account_number": "34567890123",
           "product_type": "D1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Sparen"
         },
         {
-          "account_number": 45678901234,
+          "account_number": "45678901234",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
           "product_name": "Geschäftskonto"
         },
         {
-          "account_number": 56789012345,
+          "account_number": "56789012345",
           "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
@@ -78,35 +78,35 @@
       "customer_short_name": "Vertriebsmitarbeiterin",
       "bank_products": [
         {
-          "account_number": 67890123456,
-          "product_type": "CT",
+          "account_number": "0000067890123456",
+          "product_type": "MT",
           "currency": "EUR",
-          "iban": "AT223344556677889900",
+          "iban": "BORROWER'S BILL",
           "product_name": "Collaterals"
         },
         {
-          "account_number": 78901234567,
+          "account_number": "78901234567",
           "product_type": "CL",
           "currency": "EUR",
           "iban": "AT334455667788990011",
           "product_name": "Credit Lines"
         },
         {
-          "account_number": 89012345678,
+          "account_number": "89012345678",
           "product_type": "D1",
           "currency": "EUR",
           "iban": "AT445566778899001122",
           "product_name": "Sparen"
         },
         {
-          "account_number": 90123456789,
+          "account_number": "90123456789",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Geschäftskonto"
         },
         {
-          "account_number": 12345678901,
+          "account_number": "12345678901",
           "product_type": "TR",
           "currency": "EUR",
           "iban": "AT112233445566778899",
@@ -136,35 +136,35 @@
       "customer_short_name": "IT-Spezialist",
       "bank_products": [
         {
-          "account_number": 78901234567,
+          "account_number": "78901234567",
           "product_type": "EB",
           "currency": "EUR",
           "iban": "AT334455667788990011",
           "product_name": "Electronic Banking"
         },
         {
-          "account_number": 89012345678,
+          "account_number": "89012345678",
           "product_type": "TR",
           "currency": "EUR",
           "iban": "AT445566778899001122",
           "product_name": "Veranlagungen"
         },
         {
-          "account_number": 90123456789,
+          "account_number": "90123456789",
           "product_type": "D1",
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Sparen"
         },
         {
-          "account_number": 12345678901,
+          "account_number": "12345678901",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Geschäftskonto"
         },
         {
-          "account_number": 23456789012,
+          "account_number": "23456789012",
           "product_type": "F1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
@@ -194,35 +194,35 @@
       "customer_short_name": "Marketingexperte",
       "bank_products": [
         {
-          "account_number": 89012345678,
-          "product_type": "CT",
+          "account_number": "0000089012345678",
+          "product_type": "MT",
           "currency": "EUR",
-          "iban": "AT445566778899001122",
+          "iban": "RGISTRED MAX. AMOUNT MORTAGE (DOMESTIC)",
           "product_name": "Collaterals"
         },
         {
-          "account_number": 90123456789,
+          "account_number": "90123456789",
           "product_type": "CL",
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Credit Lines"
         },
         {
-          "account_number": 12345678901,
+          "account_number": "12345678901",
           "product_type": "D2",
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Sparen"
         },
         {
-          "account_number": 23456789012,
+          "account_number": "23456789012",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Geschäftskontonto"
         },
         {
-          "account_number": 34567890123,
+          "account_number": "34567890123",
           "product_type": "F1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
@@ -252,39 +252,46 @@
       "customer_short_name": "Produktionsleiter",
       "bank_products": [
         {
-          "account_number": 90123456789,
+          "account_number": "90123456789",
           "product_type": "EB",
           "currency": "EUR",
           "iban": "AT445566778899001122",
           "product_name": "Electronic Banking"
         },
         {
-          "account_number": 23456789012,
+          "account_number": "23456789012",
           "product_type": "TT",
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Veranlagungen"
         },
         {
-          "account_number": 34567890123,
+          "account_number": "34567890123",
           "product_type": "D1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Sparen"
         },
         {
-          "account_number": 45678901234,
+          "account_number": "45678901234",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
           "product_name": "Geschäftskonto"
         },
         {
-          "account_number": 56789012345,
+          "account_number": "56789012345",
           "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
           "product_name": "Darlehen"
+        },
+        {
+          "account_number": "0000056339012345",
+          "product_type": "MT",
+          "currency": "EUR",
+          "iban": "FIRE AND PROPERTY INSURANCE",
+          "product_name": "Collaterals"
         }
       ],
       "data": "unvollständige",
@@ -310,35 +317,35 @@
       "customer_short_name": "Projektmanager",
       "bank_products": [
         {
-          "account_number": 56789012345,
-          "product_type": "CT",
+          "account_number": "0000056789012345",
+          "product_type": "MT",
           "currency": "EUR",
-          "iban": "AT445566778899001122",
+          "iban": "RISK LIFE INSURANCE",
           "product_name": "Collaterals"
         },
         {
-          "account_number": 67890123456,
+          "account_number": "67890123456",
           "product_type": "CL",
           "currency": "EUR",
           "iban": "AT556677889900112233",
           "product_name": "Credit Lines"
         },
         {
-          "account_number": 78901234567,
+          "account_number": "78901234567",
           "product_type": "D2",
           "currency": "EUR",
           "iban": "AT990011223344556677",
           "product_name": "Sparen"
         },
         {
-          "account_number": 89012345678,
+          "account_number": "89012345678",
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Geschäftskonto"
         },
         {
-          "account_number": 90123456789,
+          "account_number": "90123456789",
           "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
