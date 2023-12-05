@@ -21,38 +21,38 @@
       "bank_products": [
         {
           "account_number": 12345678901,
-          "product_type": "SA",
+          "product_type": "EB",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Sparkonto"
+          "product_name": "Electronic Banking"
         },
         {
           "account_number": 23456789012,
-          "product_type": "CC",
+          "product_type": "TT",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Kreditkarte"
+          "product_name": "Veranlagungen"
         },
         {
           "account_number": 34567890123,
-          "product_type": "LN",
+          "product_type": "D1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Kredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 45678901234,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Girokonto"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 56789012345,
-          "product_type": "M1",
+          "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Hypothek"
+          "product_name": "Darlehen"
         }
       ],
       "data": "unvollständige",
@@ -79,24 +79,24 @@
       "bank_products": [
         {
           "account_number": 67890123456,
-          "product_type": "CA",
+          "product_type": "CT",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Unternehmenskonto"
+          "product_name": "Collaterals"
         },
         {
           "account_number": 78901234567,
-          "product_type": "TD",
+          "product_type": "CL",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Termineinlage"
+          "product_name": "Credit Lines"
         },
         {
           "account_number": 89012345678,
-          "product_type": "LN",
+          "product_type": "D1",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Unternehmenskredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 90123456789,
@@ -107,10 +107,10 @@
         },
         {
           "account_number": 12345678901,
-          "product_type": "CC",
+          "product_type": "TR",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Kreditkarte"
+          "product_name": "Veranlagungen"
         }
       ],
       "data": "vollständige",
@@ -137,38 +137,38 @@
       "bank_products": [
         {
           "account_number": 78901234567,
-          "product_type": "SA",
+          "product_type": "EB",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Sparkonto"
+          "product_name": "Electronic Banking"
         },
         {
           "account_number": 89012345678,
-          "product_type": "CC",
+          "product_type": "TR",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Kreditkarte"
+          "product_name": "Veranlagungen"
         },
         {
           "account_number": 90123456789,
-          "product_type": "LN",
+          "product_type": "D1",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Kredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 12345678901,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Girokonto"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 23456789012,
-          "product_type": "M1",
+          "product_type": "F1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Hypothek"
+          "product_name": "Darlehen"
         }
       ],
       "data": "unvollständige",
@@ -195,38 +195,38 @@
       "bank_products": [
         {
           "account_number": 89012345678,
-          "product_type": "CA",
+          "product_type": "CT",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Unternehmenskonto"
+          "product_name": "Collaterals"
         },
         {
           "account_number": 90123456789,
-          "product_type": "TD",
+          "product_type": "CL",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Termineinlage"
+          "product_name": "Credit Lines"
         },
         {
           "account_number": 12345678901,
-          "product_type": "LN",
+          "product_type": "D2",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Unternehmenskredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 23456789012,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Geschäftskonto"
+          "product_name": "Geschäftskontonto"
         },
         {
           "account_number": 34567890123,
-          "product_type": "M1",
+          "product_type": "F1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Hypothek"
+          "product_name": "Darlehen"
         }
       ],
       "data": "vollständige",
@@ -253,38 +253,38 @@
       "bank_products": [
         {
           "account_number": 90123456789,
-          "product_type": "SA",
+          "product_type": "EB",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Sparkonto"
+          "product_name": "Electronic Banking"
         },
         {
           "account_number": 23456789012,
-          "product_type": "CC",
+          "product_type": "TT",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Kreditkarte"
+          "product_name": "Veranlagungen"
         },
         {
           "account_number": 34567890123,
-          "product_type": "LN",
+          "product_type": "D1",
           "currency": "EUR",
           "iban": "AT112233445566778899",
-          "product_name": "Kredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 45678901234,
           "product_type": "C1",
           "currency": "EUR",
           "iban": "AT223344556677889900",
-          "product_name": "Girokonto"
+          "product_name": "Geschäftskonto"
         },
         {
           "account_number": 56789012345,
-          "product_type": "M1",
+          "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Hypothek"
+          "product_name": "Darlehen"
         }
       ],
       "data": "unvollständige",
@@ -311,24 +311,24 @@
       "bank_products": [
         {
           "account_number": 56789012345,
-          "product_type": "CA",
+          "product_type": "CT",
           "currency": "EUR",
           "iban": "AT445566778899001122",
-          "product_name": "Unternehmenskonto"
+          "product_name": "Collaterals"
         },
         {
           "account_number": 67890123456,
-          "product_type": "TD",
+          "product_type": "CL",
           "currency": "EUR",
           "iban": "AT556677889900112233",
-          "product_name": "Termineinlage"
+          "product_name": "Credit Lines"
         },
         {
           "account_number": 78901234567,
-          "product_type": "LN",
+          "product_type": "D2",
           "currency": "EUR",
           "iban": "AT990011223344556677",
-          "product_name": "Unternehmenskredit"
+          "product_name": "Sparen"
         },
         {
           "account_number": 89012345678,
@@ -339,10 +339,10 @@
         },
         {
           "account_number": 90123456789,
-          "product_type": "M1",
+          "product_type": "F1",
           "currency": "EUR",
           "iban": "AT334455667788990011",
-          "product_name": "Hypothek"
+          "product_name": "Darlehen"
         }
       ],
       "data": "vollständige",
