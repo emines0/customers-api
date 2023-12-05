@@ -183,6 +183,20 @@
           "currency": "EUR",
           "iban": "AT112233445566778899",
           "product_name": "Darlehen"
+        },
+        {
+          "account_number": "16781234567",
+          "product_type": "CL",
+          "currency": "EUR",
+          "iban": "AT334455616781234567",
+          "product_name": "Credit Lines"
+        },
+        {
+          "account_number": "0000090869012345",
+          "product_type": "MT",
+          "currency": "EUR",
+          "iban": "FIRE AND PROPERTY INSURANCE",
+          "product_name": "Collaterals"
         }
       ],
       "data": "unvollständige",
